@@ -18,7 +18,7 @@ const getSum = () => {
 	const table = document.querySelector("table");
 	const newRow = document.createElement("tr");
 	const totalCell = document.createElement("td");
-	newRow.classList.add("total-row");
+	newRow.id = "ans";
 	totalCell.colSpan = 2;
 	totalCell.style.fontWeight = "bold";
 	totalCell.style.textAlign = "right";
